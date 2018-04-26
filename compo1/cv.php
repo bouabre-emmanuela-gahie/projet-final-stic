@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  	 <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<title>Mon Cv personnalisé</title>
+</head>
+<body>
+	<!--Navbar-->
+	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="accueil.php">SheisthecodeCv</a>
+    		</div>
+    		<ul class="nav navbar-nav navbar-right">
+    			<li class="nav-item"><a class="nav-link" href="#"><span>A propos</span></a></li>
+      			<li class="nav-item"><a class="nav-link" href="registre.php"><span class="glyphicon-user"></span> S'inscrire</a></li>
+      			<li class="nav-item"><a class="nav-link" href="login.php"><span class="glyphicon glyphicon-log-in"></span>Se Connecter</a></li>
+            <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="cree.php">creer votre Cv</a></li>
+            <li><a href="ajout.php">Ajouter Cv</a></li>
+            <li><a href="cv.php">Curiculum Vitae</a></li>
+            <li><a href="login.php">Se Connecter</a><li>
+            <li><a href="dashboard.php">Dashboard</a></li>	
+          </ul>
+        </ul>    
+  		</div>
+  </nav>
+<!--Fin Navbar-->	                   
+	<div class="container">
+		<div class="row" id="BlocHaut">
+			
+			<div class="col-sm-12"></div>
+		
+		
+	<div class="page">
+		
+
+	<div class="info-photo"></div>
+		<div class="info">
+			<p><strong>Gahie Bouabre Emmanuela</br>
+			</strong>Née le 26 Novembre 1998 </p> </br>
+			<p>Abidjan yopougon Maroc</br>
+			+225 48450720</br>Bouabreemmanuela@gmail.com</p>
+			<p></p>
+		</div>
+
+        <div class="row" id="BlocHautdroit">
+		<div class="photo">
+			<span class="icon-bar"></span>
+			<img src="img/cardc.jpg"
+             alt="description de l'image" 
+              height="150"
+              width="150" style="border-radius: 90px;
+              background-position: right;">
+		</div></div>
+	</div>
+	<div class="section">
+
+		<div class="sec-gauche " id="forma-gauche">
+			
+			<p> 2017 à Aujourd'hui </p>
+
+			<p>2014-2017</p>
+			<p>2010-2013</p>
+			<p>2004-2009</p>
+		</div>
+		
+		<div class="sec-droite"><br>
+			<p><span class="titre"> suivie de formation en informatique au programme SheIsTheCode</span></p></br>
+			<p><span class="titre">cycle secondaire au collège Pierre le Grand de Yopougon 
+			obtention du baccalaureat scientique</span></p></br>
+			<p><span class="titre"> obtention du brevet BEPC au College Pierre le grand</span></p></br>
+			<p><span class="titre">Cycle primaire a Notre dame de l'Annonciation de yopougon et obtention du CEPE a l'ecole primaire la BAD</span></p>
+		</div>
+	</div>
+	<div class="section">
+		<h2>experiance professionnel</h2>
+		<div class="sec-gauche ">
+			<p> juillet 2017 à aujourd'hui</br><span class="duree"></span> (4 mois) </p>
+            <div id="exp-gauche">
+			</div></div>
+		
+		<div class="sec-droite" style="text-align: right;"><p><span class="titre"> Stagiaire
+		 SheIsThecode</span></p></div>
+	</div>
+
+
+	<div class="section">
+		<h2>langues parlées et autres compétances</h2>
+		<div class="sec-gauche " >
+			<p> Français</br>
+			 Anglais </p>
+			<p> informatique </p>
+			<p> Decoration</p>
+			<p> Emballage cadeaux</p>
+			<p>
+			 Maitrise: Des logiciels powerpoint, excel , world, maitrise également<br>
+			 les languages tels que: css et html bonne maitrise 
+			de la décoration de mariage</p> 
+				
+	<h2>Centres d'interêts</h2><br>
+
+			<p>Interêts:</p>
+			<p><span class="titre"> informatique, decoration,<br> entrepreuneriat,lecture,language de programmation, </span>
+			</p>
+		</div>
+
+		<div class="sec-droite">
+			
+			
+			
+			
+		</div>
+	</div>
+
+	<br><div class="section"> 
+	
+			
+			
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
